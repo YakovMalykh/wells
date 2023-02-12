@@ -2,7 +2,7 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/c2b6dd08-2cb8-40c1-8784-3cc864e590c8/console.sql" dialect="SQLite" />
-    <file url="file://$PROJECT_DIR$/src/main/java/dz/systems/DbHandler.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/dz/systems/bdhandle/DbCreator.java" dialect="GenericSQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>

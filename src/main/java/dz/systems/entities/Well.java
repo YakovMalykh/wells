@@ -1,4 +1,4 @@
-package dz.systems;
+package dz.systems.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,6 +10,4 @@ import lombok.RequiredArgsConstructor;
 public class Well {
     private int id;
     private String name;
-
-
 }

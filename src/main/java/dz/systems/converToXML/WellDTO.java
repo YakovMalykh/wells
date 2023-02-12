@@ -1,23 +1,19 @@
-package dz.systems;
+package dz.systems.converToXML;
 
+import dz.systems.entities.Equipment;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
-@XmlRootElement
-@XmlType(name = "well")
+@NoArgsConstructor
+@AllArgsConstructor
 public class WellDTO {
-    @XmlAttribute(name = "id")
-    private String id;
-    @XmlAttribute(name ="name")
+    private int id;
     private String name;
 
-    @XmlElement(name = "equipment")
     private List<Equipment> equipmentList = new ArrayList<>();
 }

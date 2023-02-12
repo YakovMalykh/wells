@@ -1,4 +1,4 @@
-package dz.systems;
+package dz.systems.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
