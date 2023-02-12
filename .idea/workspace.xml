@@ -9,30 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5acb331-ed98-426e-b266-f6046db42e97" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wells_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/CommandLineWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/DbCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/Exceptions/DataBaseSaveException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/ManagerDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/converToXML/ConverterToXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/converToXML/WellDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/entities/Equipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dz/systems/entities/Well.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="c5acb331-ed98-426e-b266-f6046db42e97" name="Changes" comment="обавил папку">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/wells_jar/wells.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/wells_jar/wells.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dz/systems/CommandLineWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dz/systems/CommandLineWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.db" beforeDir="false" afterPath="$PROJECT_DIR$/test.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,8 +120,16 @@
       <workItem from="1675882791568" duration="1255000" />
       <workItem from="1675920717026" duration="27774000" />
       <workItem from="1676011601431" duration="31890000" />
-      <workItem from="1676190422058" duration="23292000" />
+      <workItem from="1676190422058" duration="26031000" />
     </task>
+    <task id="LOCAL-00001" summary="обавил папку">
+      <created>1676216660084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676216660084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,5 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="обавил папку" />
+    <option name="LAST_COMMIT_MESSAGE" value="обавил папку" />
   </component>
 </project>

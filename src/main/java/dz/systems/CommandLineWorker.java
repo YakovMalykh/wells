@@ -4,8 +4,7 @@ import dz.systems.bdhandle.ManagerDB;
 import dz.systems.converToXML.ConverterToXML;
 import org.apache.commons.cli.*;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class CommandLineWorker {
 
@@ -45,7 +44,7 @@ public class CommandLineWorker {
 
             manager.addEquipment(numder, nameWell);
         } else if (cmd.hasOption("i")) {
-            manager.getWellsInfo(args);
+            manager.getWellsInfo(splitByComma(args));
         } else if (cmd.hasOption("e")) {
             String pathToFile = mapOfCommand.get("e");
             ConverterToXML.exportToXml(pathToFile);
@@ -64,5 +63,14 @@ public class CommandLineWorker {
             }
         }
         return map;
+    }
+
+    private static String[] splitByComma(String[] argument) {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < argument.length; i++) {
+            String[] splited = argument[i].split(",");
+            list.addAll(List.of(splited));
+        }
+        return list.toArray(new String[0]);
     }
 }
